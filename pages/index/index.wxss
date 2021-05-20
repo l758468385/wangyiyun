@@ -1,0 +1,152 @@
+/* pages/index/index.wxss */
+.swiperContainer {
+  width: 100%;
+  height: 350rpx;
+}
+
+.swiperContainer image {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 96%;
+  margin: auto;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 14rpx;
+  margin-bottom: 10rpx;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navItem .iconfont {
+  background-color: #fd2308;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: aliceblue;
+  margin-bottom: 8rpx;
+  font-size: 50rpx;
+}
+
+.navItem text {
+  font-size: 26rpx;
+}
+
+.recTitle {
+  color: #81807c;
+  margin-bottom: 10rpx;
+}
+
+
+.recNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.more {
+  border-radius: 30rpx;
+  border: 1px solid;
+  padding: 10rpx;
+  font-size: 24rpx;
+  color: #333;
+
+}
+
+.scrollviewContainer {
+  margin-top: 10rpx;
+}
+
+.scrollView {
+  display: flex;
+
+  width: 100%;
+  height: 300rpx;
+}
+
+.scrollItem {
+  height: 300rpx;
+  width: 200rpx;
+  margin-left: 10rpx;
+}
+
+.scrollItem:first-child {
+  margin-left: 0rpx;
+}
+
+.scrollItem image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.scrollItem text {
+  font-size: 26rpx;
+  /* 多行文本溢出隐藏 省略号代替*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*设置对其模式*/
+  -webkit-line-clamp: 2;
+  /*设置多行的行数*/
+}
+
+.toplistSwiper {
+  height: 400rpx;
+  margin-top: 16rpx;
+}
+
+.toplistSwiperItem {
+  width: 96%;
+  background-color: #fbfbfb;
+  border-radius: 10rpx;
+  padding-right: 20rpx;
+}
+.toplistSwiperItem .title {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+
+.topDetail {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+
+.topDetail image {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}
+
+.count {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.songname {
+  height: 100rpx;
+  line-height: 100rpx;
+  max-width: 400rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
